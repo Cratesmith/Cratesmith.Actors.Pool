@@ -1,9 +1,6 @@
-using System;
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
 
-namespace Cratesmith
+namespace Cratesmith.Actors.Pool
 {
 // A pool reference for game objects, works just fine for non-pooled objects too!
     public struct Handle : System.IEquatable<GameObject>, System.IEquatable<Handle>

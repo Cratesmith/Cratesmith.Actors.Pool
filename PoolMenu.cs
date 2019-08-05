@@ -1,11 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 #if UNITY_EDITOR
-using UnityEditor;
 
-namespace Cratesmith
+namespace Cratesmith.Actors.Pool
 {
     public static class PoolMenu 
     {

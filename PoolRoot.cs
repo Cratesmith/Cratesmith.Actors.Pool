@@ -1,9 +1,7 @@
 using System.Collections.Generic;
-using Cratesmith.Actors;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-namespace Cratesmith
+namespace Cratesmith.Actors.Pool
 {
     public class PoolRoot : SceneRoot<PoolRoot>
     {

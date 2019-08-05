@@ -1,8 +1,7 @@
-using Cratesmith.Actors;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Cratesmith
+namespace Cratesmith.Actors.Pool
 {
     public class PoolTableRoot : Actor
     {

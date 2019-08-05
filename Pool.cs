@@ -1,13 +1,10 @@
-using System;
-using System.Collections;
-using UnityEngine;
 using System.Collections.Generic;
-using Cratesmith.Actors;
 using Cratesmith.ScriptExecutionOrder;
 using Cratesmith.Utils;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Cratesmith
+namespace Cratesmith.Actors.Pool
 {
     [ScriptExecutionOrder(-900)]
     public class Pool : SceneSingleton<Pool>

@@ -1,15 +1,16 @@
 //#define DEBUG_POOL
-using UnityEngine;
+
 using System.Collections.Generic;
 using Cratesmith.Utils;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 #if PLAYMAKER
 using HutongGames.PlayMaker.Actions;
 #endif
-using UnityEngine.SceneManagement;
 
 #pragma warning disable 618
 
-namespace Cratesmith
+namespace Cratesmith.Actors.Pool
 {
 
     [System.Serializable]

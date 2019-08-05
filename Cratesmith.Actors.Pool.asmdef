@@ -1,5 +1,5 @@
 {
-    "name": "Cratesmith.Pool",
+    "name": "Cratesmith.Actors.Pool",
     "references": [
         "Cratesmith.Utils",
         "Cratesmith.Actors",
