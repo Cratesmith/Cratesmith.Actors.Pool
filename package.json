@@ -2,7 +2,7 @@
 	"name": "com.cratesmith.actors.pool",
 	"displayName": "Cratesmith.Actors.Pool",
 	"description": "A pooling system for supporting reference handles based on Actors in Unity3d.",
-	"version": "0.0.1-develop",
+	"version": "0.0.2",
 	"unity": "2018.3",
 	"license": "MIT",
 	"repository": {
@@ -12,8 +12,8 @@
 	"src": "Packages/Cratesmith.Actors.Pool",
 	"author": "Kieran Lord <cratesmith@cratesmith.com> (https://github.com/cratesmith)",
 	"dependencies": {
-		"com.cratesmith.utils": "https://github.com/Cratesmith/Cratesmith.Utils#0.0.1-develop",
-		"com.cratesmith.actors": "https://github.com/Cratesmith/Cratesmith.Actors#0.0.1-develop",
+		"com.cratesmith.utils": "https://github.com/Cratesmith/Cratesmith.Utils#0.0.2",
+		"com.cratesmith.actors": "https://github.com/Cratesmith/Cratesmith.Actors#0.0.2",
 		"com.cratesmith.scriptexecutionorder": "https://github.com/Cratesmith/Cratesmith.ScriptExecutionOrder#0.0.2"			
 	}
 }
