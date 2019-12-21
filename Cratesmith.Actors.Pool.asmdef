@@ -3,9 +3,9 @@
     "references": [
         "Cratesmith.Utils",
         "Cratesmith.Actors",
-        "Cratesmith.ScriptExecutionOrder"
+        "Cratesmith.ScriptExecutionOrder",
+        "Cratesmith.Collections"
     ],
-    "optionalUnityReferences": [],
     "includePlatforms": [],
     "excludePlatforms": [
         "PS4"
