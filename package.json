@@ -2,7 +2,7 @@
 	"name": "com.cratesmith.actors.pool",
 	"displayName": "Cratesmith.Actors.Pool",
 	"description": "A pooling system for supporting reference handles based on Actors in Unity3d.",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"unity": "2018.3",
 	"license": "MIT",
 	"repository": {

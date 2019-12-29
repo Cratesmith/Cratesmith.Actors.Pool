@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using Cratesmith.ScriptExecutionOrder;
+using Cratesmith.Utils;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -185,7 +186,7 @@ namespace Cratesmith.Actors.Pool
 
         void OnDestroy()
         {
-            if(!Application.isPlaying) return;
+            if(ApplicationState.isQuittingOrNotPlaying) return;
             s_allPools.Remove(this);
         }
 
